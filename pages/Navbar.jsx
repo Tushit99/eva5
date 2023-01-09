@@ -24,7 +24,7 @@ import Link from "next/link";
           <Flex h={16} alignItems={"center"} justifyContent={"space-between"}> 
             <Link href="https://github.com/Tushit99">Tushit Saxena</Link>
   
-            <Flex alignItems={"center"}>
+            <Flex alignItems={"center"}> 
               <Stack direction={"row"} spacing={7}>
                 <Button onClick={toggleColorMode}>
                   {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
